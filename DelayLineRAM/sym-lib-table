@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74hc595drg_shfitregister")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/part_libraries/74hc595drg_shfitregister.elibz")(options "")(descr ""))
+)
