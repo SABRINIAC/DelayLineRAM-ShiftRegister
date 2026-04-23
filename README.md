@@ -21,6 +21,9 @@ This build is meant to have 8 of the RAM modules and 1 address counter module, a
 | 74HC86N Quad XOR Gate | 2 |
 | 74LS175N Quad D Flip Flop | 2 |
 | 2x1 Right Angle Male Pin Headers | 34 |
-| 1KΩ Resistor | 8 |
+| 1KΩ Resistor | 64 |
 | 2N2222A NPN Transistor | 24 |
 | 74HC595 8Bit SIPO Shift Registers | 256 |
+
+
+Note there is no LEDs or resistors for the address counter PCB, I intend to leave it unpopulated unless I need to debug. It will work just fine without those parts
