@@ -1615,16 +1615,28 @@
 		(uuid "2cb5d40d-50c3-411f-85cd-ecae5896b119")
 	)
 	(junction
-		(at 219.71 27.94)
+		(at 307.34 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ddec768-3857-463d-913c-256f4c2ecbdd")
 	)
 	(junction
-		(at 219.71 38.1)
+		(at 350.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8251ac8a-3db6-4816-985a-b96085a9d2a0")
+		(uuid "417c3334-40f9-4bb2-b2f0-896cf6100fb5")
+	)
+	(junction
+		(at 330.2 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c399a45-3e79-4eff-9e7a-6e1ce855549e")
+	)
+	(junction
+		(at 308.61 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddcd2c1a-4c10-4ec3-9747-f134b5e063da")
 	)
 	(no_connect
 		(at 115.57 177.8)
@@ -3000,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 78.74) (xy 312.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b263e7-2297-42ab-8e6e-b26fc145c0be")
+	)
+	(wire
+		(pts
 			(xy 158.75 199.39) (xy 160.02 199.39)
 		)
 		(stroke
@@ -3420,6 +3442,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 77.47) (xy 312.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f70eb3a-81ff-479d-af9e-eb6dd894633f")
+	)
+	(wire
+		(pts
 			(xy 72.39 99.06) (xy 73.66 99.06)
 		)
 		(stroke
@@ -3467,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "3556161b-b9b6-4eb5-a9d8-7f6b83c4440b")
+	)
+	(wire
+		(pts
+			(xy 312.42 78.74) (xy 314.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3733af9a-5d1e-4ef2-89a4-accba26027ec")
 	)
 	(wire
 		(pts
@@ -3550,13 +3592,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 30.48) (xy 219.71 27.94)
+			(xy 307.34 53.34) (xy 307.34 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cb0f3d5-31d7-412b-a7f5-90b65a91fb90")
+	)
+	(wire
+		(pts
+			(xy 330.2 66.04) (xy 331.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d390112-3f34-475e-b81c-31dfd549e715")
 	)
 	(wire
 		(pts
@@ -3870,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 27.94) (xy 220.98 27.94)
+			(xy 307.34 50.8) (xy 308.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4197,6 +4249,16 @@
 			(type default)
 		)
 		(uuid "725efe40-e31d-4c85-832b-33ea2bcb022f")
+	)
+	(wire
+		(pts
+			(xy 330.2 60.96) (xy 330.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bb09bf-1657-4c96-a5d7-75204810eaa1")
 	)
 	(wire
 		(pts
@@ -4587,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "92392ac2-3ebc-4641-bc9f-3edaa3de8f75")
-	)
-	(wire
-		(pts
-			(xy 215.9 38.1) (xy 219.71 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e22449-3f36-4be9-9803-ecc7285f7d03")
 	)
 	(wire
 		(pts
@@ -5200,6 +5252,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 74.93) (xy 308.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47f3190-c04c-4ad0-9ce3-6009e8286c2e")
+	)
+	(wire
+		(pts
 			(xy 158.75 96.52) (xy 160.02 96.52)
 		)
 		(stroke
@@ -5267,16 +5329,6 @@
 			(type default)
 		)
 		(uuid "c9b9af93-54ca-4a88-bac9-e8b33a38dedc")
-	)
-	(wire
-		(pts
-			(xy 219.71 38.1) (xy 222.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9facafc-5f77-440d-a8eb-fbb5de8ae576")
 	)
 	(wire
 		(pts
@@ -5460,6 +5512,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 60.96) (xy 350.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc0850d-7681-45ec-befb-166f7a8bdb34")
+	)
+	(wire
+		(pts
 			(xy 226.06 201.93) (xy 224.79 201.93)
 		)
 		(stroke
@@ -5550,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 60.96) (xy 330.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99df674-5403-403a-ae9e-b9dff3df6d4e")
+	)
+	(wire
+		(pts
 			(xy 72.39 134.62) (xy 73.66 134.62)
 		)
 		(stroke
@@ -5577,6 +5649,16 @@
 			(type default)
 		)
 		(uuid "efb9d7be-b51a-48aa-8f4b-e533961ac2f3")
+	)
+	(wire
+		(pts
+			(xy 350.52 50.8) (xy 351.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08e33fb-7781-48c2-92f3-7aaf1d793d85")
 	)
 	(wire
 		(pts
@@ -5617,6 +5699,16 @@
 			(type default)
 		)
 		(uuid "f40fbeaa-eb07-43fa-8b7f-8a808a47dfcf")
+	)
+	(wire
+		(pts
+			(xy 350.52 53.34) (xy 350.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4817a4e-5fed-4bfa-8a1f-0e2257af958c")
 	)
 	(wire
 		(pts
@@ -5779,6 +5871,17 @@
 		)
 		(uuid "777d323e-2de7-4ccf-9d2b-52ac8567d5ce")
 	)
+	(text "<--- If WriteEnable is Low (0v) then it'll pull this low"
+		(exclude_from_sim no)
+		(at 379.476 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "8b54e426-f31e-4698-b9d3-4ba82cafbe2f")
+	)
 	(text "On rising edge, everything is shifted"
 		(exclude_from_sim no)
 		(at 122.428 33.274 0)
@@ -5789,9 +5892,9 @@
 		)
 		(uuid "90e3d49d-19ec-4815-b82b-0219ab7e51a0")
 	)
-	(text "<--- If DoWrite is High (5v) then it'll pull the wire after\nSR16_Out low meaning DataIn will take \"priority\""
+	(text "If WriteEnable is High (5v) then it'll pull this low --->\n"
 		(exclude_from_sim no)
-		(at 249.174 29.972 0)
+		(at 278.638 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5809,6 +5912,16 @@
 			)
 		)
 		(uuid "a0698f00-f796-4a48-bd5d-75a78e71c891")
+	)
+	(text "Invert the WriteEnable signal for the\nselection of LastSR_Out or DataIn"
+		(exclude_from_sim no)
+		(at 328.93 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b491ffc9-0ea6-4a61-8fd6-407b2d77ce02")
 	)
 	(text "Refresh Output Pins (QA-H) ; Updates the output pins to reflect the data in the register"
 		(exclude_from_sim no)
@@ -6348,29 +6461,7 @@
 			)
 		)
 	)
-	(global_label "SR1_Write"
-		(shape input)
-		(at 215.9 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "304c82c9-eb5a-4ac6-9339-179010e7a48b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.6015 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DoWrite"
+	(global_label "WriteEnable"
 		(shape input)
 		(at 40.64 154.94 0)
 		(fields_autoplaced yes)
@@ -6382,7 +6473,7 @@
 		)
 		(uuid "30561be0-f4b2-4a7d-aa6a-26e07928ffaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7009 154.94 0)
+			(at 54.6317 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,6 +6523,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WriteEnable"
+		(shape input)
+		(at 293.37 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "372eec9b-4140-4a31-8085-6584d68bebb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.3783 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6546,28 +6659,6 @@
 			)
 		)
 	)
-	(global_label "DataIn"
-		(shape input)
-		(at 229.87 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a278952-5094-44d4-ab3a-7a28e6f7c9c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.9027 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SR8_Out"
 		(shape input)
 		(at 96.52 217.17 0)
@@ -6658,7 +6749,7 @@
 	)
 	(global_label "LastSR_Out"
 		(shape input)
-		(at 228.6 27.94 0)
+		(at 316.23 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6668,7 +6759,7 @@
 		)
 		(uuid "45b0c042-4dd1-4294-b684-86883cb15d8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1684 27.94 0)
+			(at 329.7984 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,6 +7473,50 @@
 			)
 		)
 	)
+	(global_label "DataIn"
+		(shape input)
+		(at 359.41 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77b6dab5-87fe-44a9-a4e3-2a266c3b083c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.4427 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SR1_Write"
+		(shape input)
+		(at 331.47 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78859995-7766-42a2-9e08-dada3d6c6f70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.7685 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Clock"
 		(shape input)
 		(at 96.52 83.82 0)
@@ -7602,6 +7737,28 @@
 			)
 		)
 	)
+	(global_label "!WriteEnable"
+		(shape input)
+		(at 314.96 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b3c5ea4-2f05-46cf-a9ec-ad27afb45d59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 329.5565 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Reset#"
 		(shape input)
 		(at 182.88 162.56 0)
@@ -7668,9 +7825,9 @@
 			)
 		)
 	)
-	(global_label "DoWrite"
+	(global_label "WriteEnable"
 		(shape input)
-		(at 222.25 20.32 0)
+		(at 309.88 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7680,7 +7837,7 @@
 		)
 		(uuid "91100b08-070d-4478-b29a-cfe1e71b4893")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.3109 20.32 0)
+			(at 323.8717 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8309,7 @@
 			)
 		)
 	)
-	(global_label "DoWrite"
+	(global_label "WriteEnable"
 		(shape input)
 		(at 45.72 97.79 0)
 		(fields_autoplaced yes)
@@ -8164,7 +8321,7 @@
 		)
 		(uuid "bcecc8ef-73c6-4c01-aec8-f358dbb0de59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7809 97.79 0)
+			(at 59.7117 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,6 +8784,28 @@
 		(uuid "de6aff23-f15a-4a62-a5c7-209e282be6ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.0661 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "!WriteEnable"
+		(shape input)
+		(at 353.06 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e09fdf5d-9425-45ee-b4bf-20fbcf328b71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.6565 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9477,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 226.06 38.1 0)
+		(at 350.52 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9306,7 +9485,7 @@
 		(dnp no)
 		(uuid "02998cb2-7a84-4100-acd7-90b7ab772325")
 		(property "Reference" "D1"
-			(at 226.06 35.814 0)
+			(at 353.568 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9493,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 226.06 34.29 0)
+			(at 346.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9502,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
-			(at 226.06 38.1 0)
+			(at 350.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 38.1 0)
+			(at 350.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9520,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 226.06 38.1 0)
+			(at 350.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9529,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 226.06 38.1 0)
+			(at 350.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9538,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 226.06 38.1 0)
+			(at 350.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,6 +10112,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 349.25 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c759128-1dfe-46da-9e0b-0ab3b51de4e1")
+		(property "Reference" "R3"
+			(at 349.25 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 349.25 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 349.25 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 349.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3f01dd-55fa-44ff-aac9-d94c4b37ec6d")
+		)
+		(pin "2"
+			(uuid "6aa1d0db-61a1-45a7-9201-e4afc1b5faab")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 224.79 207.01 270)
 		(unit 1)
@@ -10213,6 +10459,73 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 340.36 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115fadfd-8b50-4756-a700-e3bf7845e337")
+		(property "Reference" "#PWR0102"
+			(at 334.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6501693-c01d-41bb-a05b-6b336b41bcd5")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10940,6 +11253,73 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 355.6 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "201b6197-ac95-49a2-af28-20af4e1f0ee3")
+		(property "Reference" "R4"
+			(at 355.6 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 355.6 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 355.6 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbbcbb83-0118-4466-8937-bb0b11b26719")
+		)
+		(pin "2"
+			(uuid "6664f43e-4cbc-4d4f-9caa-6933096efa7d")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13918,7 +14298,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 219.71 34.29 90)
+		(at 307.34 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13926,7 +14306,7 @@
 		(dnp no)
 		(uuid "584d7074-981a-497b-8d29-11d2089e171b")
 		(property "Reference" "D2"
-			(at 222.25 34.29 90)
+			(at 309.88 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14314,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 215.9 34.29 0)
+			(at 303.53 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +14323,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
-			(at 219.71 34.29 0)
+			(at 307.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13952,7 +14332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 34.29 0)
+			(at 307.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +14341,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 219.71 34.29 0)
+			(at 307.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +14350,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 219.71 34.29 0)
+			(at 307.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,7 +14359,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 34.29 0)
+			(at 307.34 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,6 +14377,72 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf03ee8-9beb-46be-8750-2b4ff3e44f56")
+		(property "Reference" "#PWR0103"
+			(at 308.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6247d8-8990-45f1-b8cb-74d5fe639e31")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -15586,73 +16032,6 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 224.79 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c3b6337-32d9-452e-a9d0-505e44bf8976")
-		(property "Reference" "R1"
-			(at 224.79 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kOhm"
-			(at 224.79 25.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 224.79 29.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 224.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bec3a35-e483-4cbd-8866-ec8d0d1e21ce")
-		)
-		(pin "2"
-			(uuid "9579a534-8fbf-4ad8-80e7-062e0674e840")
-		)
-		(instances
-			(project ""
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -17441,6 +17820,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 297.18 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9d8eefb-a097-4032-aaf6-dd05f5837eff")
+		(property "Reference" "R6"
+			(at 297.18 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 297.18 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 297.18 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 297.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e676fd9-a66b-42d4-8a4f-0da86bb409c4")
+		)
+		(pin "2"
+			(uuid "ee8f1b07-2694-4228-80bb-abfc3ddde75c")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 139.7 96.52 270)
 		(unit 1)
@@ -17574,7 +18020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 27.94 270)
+		(at 297.18 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17583,7 +18029,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac0e5c5d-ab21-485b-bb85-e1b862e8e9f5")
 		(property "Reference" "#PWR051"
-			(at 203.2 27.94 0)
+			(at 290.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17592,7 +18038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 27.9399 90)
+			(at 293.37 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +18047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 27.94 0)
+			(at 297.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17610,7 +18056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 27.94 0)
+			(at 297.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17619,7 +18065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 27.94 0)
+			(at 297.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17993,15 +18439,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 20.32 90)
+		(at 312.42 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b266138e-6722-4b81-b809-e84ddee9fc47")
-		(property "Reference" "R2"
-			(at 218.44 15.494 90)
+		(uuid "b242d6f2-2484-4020-aa3b-9b6f16d5abfb")
+		(property "Reference" "R1"
+			(at 312.42 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18009,7 +18455,7 @@
 			)
 		)
 		(property "Value" "1kOhm"
-			(at 218.44 18.034 90)
+			(at 312.42 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18017,7 +18463,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 218.44 22.098 90)
+			(at 312.42 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18026,7 +18472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 20.32 0)
+			(at 312.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18035,7 +18481,74 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 20.32 0)
+			(at 312.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "172417ba-c2c8-4d72-8f65-746c313326c5")
+		)
+		(pin "2"
+			(uuid "f44e6cd3-ca06-42ef-b1dd-9d4b5e2a364c")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 306.07 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b266138e-6722-4b81-b809-e84ddee9fc47")
+		(property "Reference" "R2"
+			(at 306.07 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 306.07 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 306.07 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 306.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18639,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 214.63 25.4 270)
+		(at 302.26 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18134,7 +18647,7 @@
 		(dnp no)
 		(uuid "bab48cb8-df08-4381-bbe6-2c43ea93ee16")
 		(property "Reference" "Q1"
-			(at 214.63 30.988 90)
+			(at 297.942 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18142,7 +18655,7 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 214.63 33.274 90)
+			(at 297.942 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18150,7 +18663,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 214.63 88.9 0)
+			(at 302.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18159,7 +18672,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 214.63 88.9 0)
+			(at 302.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18168,7 +18681,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 214.63 25.4 0)
+			(at 302.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,7 +18690,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 214.63 25.4 0)
+			(at 302.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18699,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 214.63 25.4 0)
+			(at 302.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18708,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 214.63 25.4 0)
+			(at 302.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19845,6 +20358,73 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 316.23 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defc7d10-24bc-4c46-b263-0b054d7c8598")
+		(property "Reference" "#PWR0104"
+			(at 312.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 320.04 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 316.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe7c284-8a0a-4e2b-882f-e6ac0225c46b")
+		)
+		(instances
+			(project ""
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 182.88 224.79 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19970,6 +20550,103 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 306.07 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43e7256-aad9-475c-be31-7048da299f30")
+		(property "Reference" "Q3"
+			(at 303.276 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPN"
+			(at 303.276 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 369.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 369.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 306.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c8d1be7-84ae-41b3-9846-b1eea241197e")
+		)
+		(pin "1"
+			(uuid "e2cddc59-254e-4c62-9f7d-f337f238f9d4")
+		)
+		(pin "2"
+			(uuid "75b0b1dc-0b64-45f4-965f-5d112b7c2a69")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -20364,6 +21041,103 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 345.44 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb33a1b5-30f5-49cf-bce0-bb462f901cdc")
+		(property "Reference" "Q2"
+			(at 345.44 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPN"
+			(at 345.44 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 345.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 345.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 345.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 345.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 345.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 345.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "733117c5-151f-4540-ab2a-3b1b8a7a0d86")
+		)
+		(pin "1"
+			(uuid "012e5635-4cdb-4708-8c0d-3c15c2ec490e")
+		)
+		(pin "2"
+			(uuid "d931cbf1-af56-487d-a960-541d7462358a")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -21490,6 +22264,73 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 312.42 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdd98513-b775-4363-87a0-e18d28f32ba9")
+		(property "Reference" "R5"
+			(at 312.42 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 312.42 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 312.42 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 312.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62208b61-e3d3-4683-a33e-830c3d372ae0")
+		)
+		(pin "2"
+			(uuid "c2bc3e80-df84-4f7f-b4ae-432871ee0828")
+		)
+		(instances
+			(project "DelayLineRAM"
+				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
+					(reference "R5")
 					(unit 1)
 				)
 			)
