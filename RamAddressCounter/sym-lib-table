@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SN74LS175N_4dflipflops")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/part_libraries/SN74LS175N_4dflipflops.elibz")(options "")(descr ""))
+  (lib (name "SN74HC08DS_quadANDgate")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/part_libraries/SN74HC08DS_quadANDgate.elibz")(options "")(descr ""))
+  (lib (name "SN74HC86NLX_quadXORgate")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/part_libraries/SN74HC86NLX_quadXORgate.elibz")(options "")(descr ""))
+)
