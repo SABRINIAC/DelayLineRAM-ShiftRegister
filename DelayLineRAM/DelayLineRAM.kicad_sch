@@ -866,169 +866,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1613,18 +1450,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cb5d40d-50c3-411f-85cd-ecae5896b119")
-	)
-	(junction
-		(at 307.34 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ddec768-3857-463d-913c-256f4c2ecbdd")
-	)
-	(junction
-		(at 350.52 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417c3334-40f9-4bb2-b2f0-896cf6100fb5")
 	)
 	(junction
 		(at 330.2 60.96)
@@ -3592,16 +3417,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 53.34) (xy 307.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb0f3d5-31d7-412b-a7f5-90b65a91fb90")
-	)
-	(wire
-		(pts
 			(xy 330.2 66.04) (xy 331.47 66.04)
 		)
 		(stroke
@@ -3919,16 +3734,6 @@
 			(type default)
 		)
 		(uuid "55f2d514-922c-4045-93e5-cd13ef008438")
-	)
-	(wire
-		(pts
-			(xy 307.34 50.8) (xy 308.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5710cc80-8e12-436b-b077-e7a6f89be881")
 	)
 	(wire
 		(pts
@@ -4669,6 +4474,16 @@
 			(type default)
 		)
 		(uuid "94cd625c-18fa-43e1-9674-61ed120a3021")
+	)
+	(wire
+		(pts
+			(xy 334.01 50.8) (xy 334.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cf72b4-c49b-4b36-8661-d08188c5e08f")
 	)
 	(wire
 		(pts
@@ -5512,7 +5327,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 60.96) (xy 350.52 60.96)
+			(xy 330.2 60.96) (xy 334.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5559,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "df01d48c-26e8-4474-b5d4-09384d564ede")
+	)
+	(wire
+		(pts
+			(xy 307.34 50.8) (xy 307.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3604b56-9e7a-4e86-a221-25ade825735d")
 	)
 	(wire
 		(pts
@@ -5652,16 +5477,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 50.8) (xy 351.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f08e33fb-7781-48c2-92f3-7aaf1d793d85")
-	)
-	(wire
-		(pts
 			(xy 158.75 182.88) (xy 160.02 182.88)
 		)
 		(stroke
@@ -5699,16 +5514,6 @@
 			(type default)
 		)
 		(uuid "f40fbeaa-eb07-43fa-8b7f-8a808a47dfcf")
-	)
-	(wire
-		(pts
-			(xy 350.52 53.34) (xy 350.52 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4817a4e-5fed-4bfa-8a1f-0e2257af958c")
 	)
 	(wire
 		(pts
@@ -5871,17 +5676,6 @@
 		)
 		(uuid "777d323e-2de7-4ccf-9d2b-52ac8567d5ce")
 	)
-	(text "<--- If WriteEnable is Low (0v) then it'll pull this low"
-		(exclude_from_sim no)
-		(at 379.476 52.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "8b54e426-f31e-4698-b9d3-4ba82cafbe2f")
-	)
 	(text "On rising edge, everything is shifted"
 		(exclude_from_sim no)
 		(at 122.428 33.274 0)
@@ -5891,17 +5685,6 @@
 			)
 		)
 		(uuid "90e3d49d-19ec-4815-b82b-0219ab7e51a0")
-	)
-	(text "If WriteEnable is High (5v) then it'll pull this low --->\n"
-		(exclude_from_sim no)
-		(at 278.638 52.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "91daedcd-da3f-456d-9adc-27ebb01101ec")
 	)
 	(text "When pulled low the register is cleared to all 0s"
 		(exclude_from_sim no)
@@ -6439,6 +6222,28 @@
 			)
 		)
 	)
+	(global_label "DataIn"
+		(shape input)
+		(at 297.18 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c7f3626-6b61-47f2-ba6c-4aaf32bae671")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.1473 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SR23_Out"
 		(shape input)
 		(at 182.88 190.5 0)
@@ -6749,22 +6554,22 @@
 	)
 	(global_label "LastSR_Out"
 		(shape input)
-		(at 316.23 50.8 0)
+		(at 323.85 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "45b0c042-4dd1-4294-b684-86883cb15d8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.7984 50.8 0)
+			(at 310.2816 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7464,28 +7269,6 @@
 		(uuid "7733a016-6165-4503-a84e-bcaaddb13be6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.7565 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DataIn"
-		(shape input)
-		(at 359.41 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77b6dab5-87fe-44a9-a4e3-2a266c3b083c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.4427 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,7 +8578,7 @@
 	)
 	(global_label "!WriteEnable"
 		(shape input)
-		(at 353.06 43.18 0)
+		(at 336.55 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8805,7 +8588,7 @@
 		)
 		(uuid "e09fdf5d-9425-45ee-b4bf-20fbcf328b71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.6565 43.18 0)
+			(at 351.1465 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,92 +9259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 350.52 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02998cb2-7a84-4100-acd7-90b7ab772325")
-		(property "Reference" "D1"
-			(at 353.568 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 346.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 350.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7904538f-58eb-48bd-a1a9-8b6356140b39")
-		)
-		(pin "1"
-			(uuid "ce11d033-b842-4a18-bd17-fa8fc63aaba0")
-		)
-		(instances
-			(project ""
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 224.79 154.94 270)
 		(unit 1)
@@ -10113,7 +9810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 349.25 43.18 90)
+		(at 332.74 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10121,7 +9818,7 @@
 		(dnp no)
 		(uuid "0c759128-1dfe-46da-9e0b-0ab3b51de4e1")
 		(property "Reference" "R3"
-			(at 349.25 38.354 90)
+			(at 332.74 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +9826,7 @@
 			)
 		)
 		(property "Value" "1kOhm"
-			(at 349.25 40.894 90)
+			(at 332.74 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +9834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 349.25 44.958 90)
+			(at 332.74 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 43.18 0)
+			(at 332.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +9852,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 349.25 43.18 0)
+			(at 332.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,73 +10156,6 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 340.36 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "115fadfd-8b50-4756-a700-e3bf7845e337")
-		(property "Reference" "#PWR0102"
-			(at 334.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 336.55 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6501693-c01d-41bb-a05b-6b336b41bcd5")
-		)
-		(instances
-			(project "DelayLineRAM"
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11253,73 +10883,6 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 355.6 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "201b6197-ac95-49a2-af28-20af4e1f0ee3")
-		(property "Reference" "R4"
-			(at 355.6 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kOhm"
-			(at 355.6 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 355.6 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 355.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 355.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbbcbb83-0118-4466-8937-bb0b11b26719")
-		)
-		(pin "2"
-			(uuid "6664f43e-4cbc-4d4f-9caa-6933096efa7d")
-		)
-		(instances
-			(project "DelayLineRAM"
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14291,92 +13854,6 @@
 			(project ""
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 307.34 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "584d7074-981a-497b-8d29-11d2089e171b")
-		(property "Reference" "D2"
-			(at 309.88 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 303.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
-			(at 307.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 307.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 307.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 307.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 307.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24b77130-41ae-4842-8eb3-60d44da29255")
-		)
-		(pin "1"
-			(uuid "7851fbce-9993-4bd8-8a1c-36547902d8cc")
-		)
-		(instances
-			(project "DelayLineRAM"
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18019,73 +17496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 297.18 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac0e5c5d-ab21-485b-bb85-e1b862e8e9f5")
-		(property "Reference" "#PWR051"
-			(at 290.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "873999e7-8d27-477c-81c7-4eaf9d3a2209")
-		)
-		(instances
-			(project ""
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 96.52 45.72 270)
 		(unit 1)
@@ -18432,73 +17842,6 @@
 			(project "DelayLineRAM"
 				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 312.42 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b242d6f2-2484-4020-aa3b-9b6f16d5abfb")
-		(property "Reference" "R1"
-			(at 312.42 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kOhm"
-			(at 312.42 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 312.42 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 312.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 312.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "172417ba-c2c8-4d72-8f65-746c313326c5")
-		)
-		(pin "2"
-			(uuid "f44e6cd3-ca06-42ef-b1dd-9d4b5e2a364c")
-		)
-		(instances
-			(project "DelayLineRAM"
-				(path "/f0aaef38-25e1-4fa4-b19d-78c6ca5cfe71"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21048,7 +20391,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 345.44 48.26 270)
+		(at 328.93 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21056,7 +20399,7 @@
 		(dnp no)
 		(uuid "eb33a1b5-30f5-49cf-bce0-bb462f901cdc")
 		(property "Reference" "Q2"
-			(at 345.44 53.848 90)
+			(at 328.93 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21064,7 +20407,7 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 345.44 56.134 90)
+			(at 328.93 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21072,7 +20415,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 345.44 111.76 0)
+			(at 328.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21081,7 +20424,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 345.44 111.76 0)
+			(at 328.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21090,7 +20433,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 345.44 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21099,7 +20442,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 345.44 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21108,7 +20451,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 345.44 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21117,7 +20460,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 345.44 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
