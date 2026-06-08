@@ -27,3 +27,11 @@ This build is meant to have 8 of the RAM modules and 1 address counter module, a
 
 
 Note there is no LEDs or resistors for the address counter PCB, I intend to leave it unpopulated unless I need to debug. It will work just fine without those parts
+
+
+
+# Built Modules
+
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/a452ef20-0ed5-4744-b839-08c099d71d42" />
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/ccd87dd4-a97e-42ce-9c06-37532c79f4cc" />
+
